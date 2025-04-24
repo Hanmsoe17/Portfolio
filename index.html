@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <!-- Bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!-- Font Awesome Cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+      <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <style>
+      /* body{
+        /* font-family:'Times New Roman', Times, serif; 
+        /* scroll-behavior: smooth; 
+      } */
+
+      .navbar {
+        background-color: #fff !important;
+      }
+
+      .navbar-brand {
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #b60d10;
+        font-size: 1.9rem;
+      }
+    </style>
+</head>
+<body class="bg-light">
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand text-danger" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link text-danger active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-danger" href="#aboutMe">About me</a></li>
+            <li class="nav-item"><a class="nav-link text-danger" href="#skill">Skill</a></li>
+            <li class="nav-item"><a class="nav-link text-danger" href="#project">Projects</a></li>
+            <li class="nav-item"><a class="nav-link text-danger" href="#team">Team members</a></li>
+            <li class="nav-item"><a class="nav-link text-danger" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- profile start -->
+    <section class="container position-relative my-4" id="home" style="overflow: hidden;">
+      <!-- Background Image-->
+      <!-- <div class="position-absolute top-0 start-0 w-100 h-100">
+        <img src="/image/pastel-pink-bokeh-lights.jpg" class="w-100 h-100 rounded-5 opacity-75" style="object-fit: cover; filter: brightness(0.8);" >
+      </div> -->
+    
+      <!-- Content -->
+      <div class="row flex-row-reverse min-vh-100 align-items-center position-relative z-1">
+        <div class="col-md-6 order-md-first">
+          <div class="text-center">
+            <img 
+              src="/image/profile/HMS.jpg" 
+              class="rounded-circle img-fluid" 
+              style="width: 70%; aspect-ratio: 1 / 1; object-fit: cover;" 
+              alt="HMS"
+            >
+          </div>
+        </div>
+
+        <div class="col-md-5 text-white m-1"> <!-- Changed text to white for contrast -->
+          <div>
+            <p style="color: #11005c;" class="text-opacity-50">Hello I'm</p> <!-- Adjusted for visibility -->
+            <h3 class="text-start text-uppercase fw-bold mb-1">Web Designer & AI Researcher</h3>
+            <h4 class="mb-3 fw-medium" style="color:#11005c; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="text-opacity-50" >Han Min Soe</h4>
+            <p style="color: #11005c;" class="text-opacity-50"> <!-- Adjusted for visibility -->
+              I'm building neural systems that understand both language and human values, creating tools that make a real-world impact.
+            </p>
+            <a href="">
+              <button class="btn btn-danger shadow-lg text-white shadow-sm px-3 mt-3">My work</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- profile end -->
+
+
+      
+    <!-- about me start  -->
+    <div id="aboutMe">
+      <div class="container-lg">
+        
+        <div class="row text-center my-5">
+          <h3 class="col-4 offset-4 fw-bold">
+            About me
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="fw-bold text-danger">Freelancer</h4>
+            <p class="text-muted">
+              I specialize in building modern, scalable web solutions and AI-powered applications using technologies like PHP (Laravel), MERN Stack, Python, and AI. Whether it's crafting seamless user experiences or developing intelligent systems, I help clients turn ideas into digital reality with clean, efficient, and impactful solutions.
+            </p>
+            <div class="row text-center mt-4">
+              <div class="col-4">
+                <h2 class="fw-bold">70+</h2>
+                <p class="text-muted small">Projects</p>
+              </div>
+              <div class="col-4">
+                <h2 class="fw-bold">50+</h2>
+                <p class="text-muted small">Happy Clients</p>
+              </div>
+              <div class="col-4">
+                <h2 class="fw-bold">95%</h2>
+                <p class="text-muted small">Positive Reviews</p>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col d-flex align-items-center">
+                <a href="/image/CV/HanMinSoe.jpg" class="btn btn-danger mx-3" download="">
+                  Download CV
+                </a>
+            
+                  <a href="https://youtu.be/AbrRtet6Kw4?si=cd0op5BBB8kU7_bV">
+                    <i class="fa-brands fa-facebook fs-3 me-3" target="_blank" rel="noopener noreferrer" ></i>
+                  </a>
+
+                  <a href="">
+                    <i class="fa-brands fa-github fs-3 me-3" target="_blank" style="color: black;"></i>
+                  </a>
+
+                  <a href="">
+                    <i class="fa-brands fa-telegram fs-3 me-3" target="_blank" style="color: black;"></i>
+                  </a>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-6 mt-4 mt-md-0 my-3">
+            <div class="mb-3">
+              <div>PHP / Laravel</div>
+            <div class="progress" style="height: 8px;" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-danger" style="width: 75%"></div>
+            </div>
+            </div>
+
+            <div class="mb-3">
+              <div>MERN Stack (MongoDB, Express, React, Node.js) </div>
+            <div class="progress" style="height: 8px;" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-danger" style="width: 80%"></div>
+            </div>
+            </div>
+            
+            <div class="mb-3">
+              <div>Artificial Intelligence (NLP, ML)</div>
+            <div class="progress" style="height: 8px;" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-danger" style="width: 50%"></div>
+            </div>
+            </div>
+
+            <div class="mb-3">
+              <div>Python</div>
+            <div class="progress" style="height: 8px;" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-danger" style="width: 60%"></div>
+            </div>
+            </div>
+
+            <div class="mb-3">
+              <div>jQuery</div>
+            <div class="progress" style="height: 8px;" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-danger" style="width: 75%"></div>
+            </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about me end -->
+
+    <!-- education and activities start  -->
+
+     <section>
+      <div class="container-lg mt-3">
+        <div class="row text-center">
+          <h3 class="col-4 offset-4 fw-semibold">
+            Academics & Beyond
+          </h3>
+        </div>
+
+        <div class="row mx-3">
+          <div class="col-md-5 d-flex justify-content-center">
+            <div class="">
+              <div class="d-flex">
+                <ul>
+                  <h5>Education</h5>
+                  <li>University of Information Technology Yangon (B.Sc CS)</li>
+                  <li>Simbolo - Advanced AI Training</li>
+                  <li>CodeLab - Engineering Foundations</li>
+                </ul>  
+              </div>
+            </div>
+          </div>
+          
+                 
+          <div class="col-md-5 d-flex justify-content-center">
+            <div class="">
+              <div class="d-flex">
+                <ul>
+                  <h5>Activities</h5>
+                  <li> Excellent Choice (EC) at University</li>
+                  <li>Food Court Organizer and Homage Paying Ceremony Lead</li>
+                  <li> Volunteer – Simbolo’s Storytelling Event</li>
+                  <li> Hackathon Participant – Myanmar Engineering Centennial Celebration</li>
+                </ul>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+
+    <!-- education and activties end -->
+
+    <!-- what i do start  -->
+      <div style="margin-top: 100px;" id="skill">
+        <div class="container-lg">
+          <div class="row">
+            <h3 class="fw-bold col-4 offset-4 text-center">
+              What I do?
+            </h3>
+          </div>
+
+          <div class="row text-center g-0 mt-5">
+            <div class="col-md-4 px-2">
+              <div class="bg-white shadow-sm p-5 rounded h-100">
+                <i class="fa-solid fa-code fs-1 text-danger my-3"></i>
+                <h4 class="fw-bold text-uppercase">Web development</h4>
+                <p class="text-muted  mt-3">
+                  Crafting responsive, scalable, and user-friendly websites using modern frameworks. From sleek landing pages to full-stack web apps, I bring ideas to life with clean code and seamless UX.
+                </p>
+              </div>
+            </div>
+          
+            <div class="col-md-4 px-2 mt-3">
+              <div class="bg-white shadow-sm p-5 rounded h-100">
+                <i class="fa-solid fa-lightbulb fs-1 text-danger my-3"></i>
+                <h4 class="fw-bold text-uppercase">Creative Idea</h4>
+                <p class="text-muted mt-3">
+                  Building intelligent systems powered by machine learning and deep learning. I work on projects like AI-powered flashcard generators, essay scoring systems, and educational tools using NLP and neural networks.
+                </p>
+              </div>
+            </div>
+          
+            <div class="col-md-4 px-2 mt-3">
+              <div class="bg-white shadow-sm p-5 rounded h-100">
+                <i class="fa-solid fa-microchip fs-1 text-danger my-3"></i>
+                <h4 class="fw-bold text-uppercase"> INNOVATIVE TECH </h4>
+                <p class="text-muted mt-3">
+                  Exploring new frontiers in tech, including automation tools, ethical AI applications, and educational innovations. Whether it's a hackathon idea or a passion project, I turn concepts into impactful solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- what i do end  -->
+
+    <!-- lastest project start -->
+      <div style="margin-top: 100px;" id="project">
+        <div class="container-lg">
+          <div class="row my-5">
+            <div class="col-4 offset-4 text-center">
+              <h2 class="fw-bold">Lastest Projects</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mt-3">
+              <img src="/image/projects/FlashCard.png" class="img-thumbnail w-100" alt="DashBoard">
+              <h6 class="my-3">AI-powered Flashcard Generator</h6>
+              <a href="" class="text-decoration-none">
+                <p class="text-danger">Live Demo</p>
+              </a>
+            </div>
+
+            <div class="col-lg-4  col-md-6 mt-3">
+              <img src="/image/projects/pos.jpg" class="img-thumbnail w-100" alt="DashBoard">
+              <h6 class="my-3">POS Dashboard</h6>
+              <a href="" class="text-decoration-none">
+                <p class="text-danger">Live Demo</p>
+              </a>
+            </div>
+
+            <div class="col-lg-4  col-md-6 mt-3">
+              <img src="/image/projects/AirLineCPP.png" class="img-thumbnail w-100" alt="DashBoard">
+              <h6 class="my-3">Airline Reservation system</h6>
+              <a href="" class="text-decoration-none">
+                <p class="text-danger">Live Demo</p>
+              </a>
+            </div>
+
+            <div class="col-lg-4  col-md-6 mt-3">
+              <img src="/image/projects/CheckRoom.png" class="img-thumbnail w-100" alt="DashBoard">
+              <h6 class="my-3">Check Free Room</h6>
+              <a href="" class="text-decoration-none">
+                <p class="text-danger">Live Demo</p>
+              </a>
+            </div>
+
+            <div class="col-lg-4  col-md-6 mt-3">
+              <img src="/image/projects/EduFun.png" class="img-thumbnail w-100" alt="DashBoard">
+              <h6 class="my-3">EduFun Studio</h6>
+              <a href="" class="text-decoration-none">
+                <p class="text-danger">Live Demo</p>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-3">
+              <div class="image-container">
+                <img src="/image/projects/PetFeederMachine.png" class="img-thumbnail fixed-size-image" alt="Pet Feeder Machine">
+              </div>
+              <h6 class="my-3">Pet Feeder Machine</h6>
+              <a href="#" class="text-decoration-none">
+                <p class="text-danger">Live Demo</p>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    <!-- lastest project end -->
+
+    <!-- freelancer section start -->
+      <section class="mt-5 rounded-3 mx-5" style="background-color: rgb(103, 3, 73);">
+        <div class="container py-5">
+          <div class="row text-center">
+            <div class="col-8 offset-2">
+              <p class="text-light fs-5">Do you have any projects?</p>
+              <h1 class="text-light mb-4">I'm availible for Freelancer Projects</h1>
+              <button class="btn btn-outline-light">Contact me</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- freelancer section end -->
+
+    <!-- team members section start  -->
+      <section class="mt-4" id="team">
+        <div class="container-lg">
+          <div class="row mb-3">
+            <h2 class="col-6 offset-3 fw-bold text-center">
+              Our Team Members
+            </h2>
+          </div>
+
+          <!-- carousel start  -->
+          <div id="carouselExampleIndicators" class="carousel slide col-8 offset-2">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-danger" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-danger" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active bg-white shadow-sm rounded px-3 py-5 ">
+                <div class="d-flex align-items-center">
+                  <img src="./image/profile/ShinThant.png" style="width: 100px; height:100px" class="rounded-circle img-thumbnail" alt="">
+                  <div class="ms-4">
+                    <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class=" mb-1">Shin Thant Aung</h4>
+                    <p class="text-muted"> Senior Web developer</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  A dedicated and talented professional with expertise in web development and artificial intelligence. Known for his strong work ethic and innovative problem-solving skills, consistently delivers high-quality solutions. His passion for technology and commitment to excellence make him a standout in the field.                </p>
+
+                <div class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+
+              <div class="carousel-item bg-white shadow-sm rounded px-3 py-5 ">
+                <div class="d-flex align-items-center">
+                  <img src="./image/profile/Dipaw.png" style="width: 100px; height:100px" class="rounded-circle img-thumbnail" alt="">
+                  <div class="ms-4">
+                    <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class=" mb-1">Dipaw</h4>
+                    <p class="text-muted">Technology Advisor & Data Solutions Expert</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  A reliable and innovative thinker who excels at leveraging data and technology to provide actionable insights. Dipaw has a keen eye for identifying opportunities and offering creative solutions, making him an invaluable resource for problem-solving and strategic planning.                </p>
+
+                <div class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+
+              <div class="carousel-item bg-white shadow-sm rounded px-3 py-5 ">
+                <div class="d-flex align-items-center">
+                  <img src="./image/profile/ThaeThet.png" style="width: 100px; height:100px" class="rounded-circle img-thumbnail" alt="">
+                  <div class="ms-4">
+                    <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class=" mb-1">Thae Thet Myat Noe Oo</h4>
+                    <p class="text-muted">Information Security Analyst</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  A skilled and detail-oriented cybersecurity professional dedicated to safeguarding digital assets and ensuring robust security frameworks. With expertise in threat detection, risk mitigation, and compliance, she excels at protecting organizations from evolving cyber threats. Her analytical mindset and proactive approach make her a trusted defender of sensitive data.                </p>
+
+                <div class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+
+              
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon text-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- carousel end -->
+        </div>
+      </section>
+    <!-- team members section end -->
+
+    <!-- contact start  -->
+      <div class="container-lg my-4 mt-5" id="contact">
+        <div class="row text-center my-3">
+          <h2 class=" fw-bold col-4 offset-4">
+            Contact me
+          </h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 mt-3 d-flex justify-content-center">
+            <div class="">
+              <div class="d-flex my-4">
+                <div class="icon mt-1 me-1">
+                  <i class="fa-solid fa-phone text-danger fs-5"></i>
+                </div>
+                <div class="info">
+                  <div class="text-muted">Phone</div>
+                  <div class="text-muted">09 959 432 366</div>
+                </div>
+              </div>
+  
+              <div class="d-flex my-4">
+                <div class="icon mt-1 me-1">
+                  <i class="fa-solid fa-envelope text-danger fs-5"></i> 
+                </div>
+                <div class="info">
+                  <div class="text-muted">Email</div>
+                  <div class="text-muted">hanminsoe356@gmail.com</div>
+                </div>
+              </div>
+
+              <div class="d-flex my-4">
+                <div class="icon mt-1 me-1">
+                  <i class="fa-brands fa-telegram text-danger fs-5"></i>
+                </div>
+                <div class="info">
+                  <div class="text-muted">Telegram</div>
+                  <div class="text-muted">hanmsoe17</div>
+                </div>
+              </div>
+  
+              <div class="d-flex my-4">
+                <div class="icon mt-1 me-1">
+                  <i class="fa-solid fa-location-dot text-danger fs-5"></i> 
+                </div>
+                <div class="info">
+                  <div class="text-muted">Location</div>
+                  <div class="text-muted">Yangon</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <div class="row">
+              <div class="row">
+                <div class="col-md-6 mt-3">
+                  <input type="text" class="form-control form-control-lg border-0" placeholder="Your Name">
+                </div>
+  
+                <div class="col-md-6 mt-3">
+                  <input type="text" class="form-control form-control-lg border-0" placeholder="Your Email">
+                </div>
+              </div>
+  
+            </div>
+  
+            <div class="row mt-4">
+              <div class="col-md-12 mt-4">
+                <input type="text" class="form-control form-control-lg border-0" placeholder="Subject">
+              </div>
+            </div>
+  
+            <div class="row mt-4">
+              <div class="col-md-12 mt-4">
+                <textarea cols="30" rows="10" placeholder="Your Message" class="form-control form-control-lg border-0"></textarea>
+              </div>
+            </div>
+            </div>
+
+            <div class="row text-center mt-5">
+              <h2 class=" fw-bold col-4 offset-4">
+                <button class="btn btn-danger px-3">Send Message</button>
+              </h2>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    <!-- contact end -->
+
+
+    <!-- footer start  -->
+      <div class="border-top pt-4 shadow-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-8 offset-2">
+              <p class="text-muted text-center">We learn, We share, We Code | This Laboratory is for all coders </p>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- footer end -->
+</body>
+    <!-- Bootstrap js link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</html>
