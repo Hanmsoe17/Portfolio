@@ -5,7 +5,7 @@
 
 A responsive portfolio website built with **Bootstrap 5** as part of my frontend training. Focuses on core Bootstrap components, grid system, and utilities.
 
-## � Key Features  
+## ✨ Key Features  
 - **100% Bootstrap**
 - **Mobile-First**: Fully responsive layout  
 - **Bootstrap Components**:  
