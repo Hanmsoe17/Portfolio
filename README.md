@@ -1,7 +1,7 @@
 # Bootstrap Portfolio Project
 
 ![Portfolio Screenshot](./screenshot.png)  
-*Live Demo: [GitHub Pages Link](https://yourusername.github.io/repo-name/)*  
+*Live Demo: [GitHub Pages Link](https://github.com/Hanmsoe17/Portfolio.git)*  
 
 A responsive portfolio website built with **Bootstrap 5** as part of my frontend training. Focuses on core Bootstrap components, grid system, and utilities.
 
@@ -23,4 +23,4 @@ A responsive portfolio website built with **Bootstrap 5** as part of my frontend
 ## 🚀 How to Run  
 1. Clone the repo:  
    ```bash
-   git clone https://github.com/yourusername/bootstrap-portfolio.git
+   git clone https://github.com/Hanmsoe17/Portfolio.git
